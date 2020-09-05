@@ -1,0 +1,294 @@
+/*
+Extra small (xs) devices (portrait phones,  < 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, >= 576px)
+@media (min-width: 576px) {...}
+
+Medium (md) devices (tablets, >= 768px)
+@media (min-width: 768px) {...}
+
+Large (lg) devices (desktops, >= 992px)
+@media (min-width: 992px) {...}
+
+Extra large (xl) devices (large desktop, >= 12000px)
+@media (min-width: 1200px) {...}
+*/
+
+@media only screen and (min-width: 992px) {
+    /*---------Navigation Properties-----------*/
+    .bg2{
+        height: 330px;
+    }
+    nav{
+        width: 70%;
+        margin: 0 auto;
+    }
+    #navBg{
+        background-color: rgb(60, 60, 247);
+    }
+    #BC{
+        color: white;
+    }
+    .nav-item a{
+        font-size: 15px;
+        color: white;
+    }
+    
+
+    /*----------------Carousel Slider-------------*/
+    .carousel-item img{
+        height: 400px;
+        width: auto;   
+        object-fit: contain;
+        
+    }
+    
+    /*---------------Our Business----------------*/
+    #OurBusiness {
+      background-color: aqua;
+    }
+    #Three{
+        position: absolute; left: -15px;
+    }
+
+}
+
+
+@media only screen and (max-width: 575px)
+{
+    /*---------------Navigation Properties--------------*/    
+    .bg2{
+        height: 100%;
+    } 
+    #navBg{
+        background-color: rgb(255, 255, 255);
+    }
+    #BC{
+        color: rgb(60, 60, 247); 
+    }
+    
+    .nav-item a{
+        font-size: bold;
+        color: rgb(60, 60, 247);
+        border-bottom: gray 1.5px solid;
+    }
+      
+}
+
+/*-----------------Body Properties-------------------*/
+.dash{
+    width:30px; height: 20px; 
+}
+
+.arrow{
+    width:15px; height: 15px;
+}
+
+p {
+    font-size: 12px;
+}
+
+section{
+    margin-top: 70px;
+}
+
+footer{
+    margin-top: 70px;
+}
+/* .my-container{
+    border: black 2px solid;
+  
+}
+
+.my-col{
+    border: red 2px solid;
+}
+
+.my-row{
+    border: aqua 2px solid;
+} */
+
+
+
+
+/*----------------------------Navbar-----------------------*/
+#logo{
+    width: 100%; height: auto; border-radius: 1%;
+    border: darkgrey 2px solid;
+}
+
+#choose{
+    color: orange;
+}
+
+.bg-blue{
+    background-color: rgba(59, 59, 223, 0.973);
+}
+
+li.nav-item  :hover{
+    background-color: yellow;
+}
+
+.RoundImg{
+    width: 50px; height: 50px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: black 1px solid;
+}
+
+#NavBut{
+    border: black 1px solid;
+}
+
+
+
+
+/*-------------------Large Pic------------------------*/
+.carousel-item{
+    background-color: black;
+    
+}
+
+.carousel-item img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+    border: gray 2px solid;
+}
+
+
+
+
+
+/*-------------------Product--------------------------*/
+.pro-b{
+    border: rgb(201, 201, 201) 2px solid; 
+    padding: 5px;
+    
+}
+
+.dash2{
+    width: 70px; height: 20px; 
+}
+
+.tag {
+    width: 100%;
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+
+
+/*----------------------------About Us-----------------------------*/
+.dash3{
+    width: 70px; height: 20px; 
+}
+
+.bold{
+    font-weight: bold ;
+}
+
+
+
+/*-------------------------Our Business--------------------*/
+#Three {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.bg1{
+    /* The image used */
+    background-image: url("https://entrepreneurhandbook.co.uk/wp-content/uploads/2017/10/Steps-to-starting-a-business.png");
+    
+
+  /* Full height */
+  height: 330px;
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.bg2{
+    /* The image used */
+  background-image: url("https://i.imgur.com/YE6srBq.jpg");
+
+  /* Full height */
+  /* depend on which size */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+
+
+
+
+/*--------------------------Contact------------------------*/
+
+#ContactInfo input{
+    /* background-color:aqua; */
+
+    width: 100%;
+    height: 30px;
+    border: rgb(182, 182, 182) 1px solid;
+    border-radius: 5%;
+    font-size:12px;
+}
+
+#ContactInfo textarea{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100px;
+    border: rgb(182, 182, 182) 1px solid;
+    border-radius: 1.25%;
+}
+
+
+
+/*-----------------------------Footer-----------------------*/
+#footer{
+    background-color: black;
+    color: white;
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+#footer ul{
+    list-style-type: none;
+}
+
+#GetNews{
+    width: 100%;
+    border-bottom: white 0.5px solid;
+    border-radius: 5%;
+    /* border: aquamarine 2px solid; */
+}
+
+#GetNews input{
+    width: 125px;
+    background-color: black;
+    border: black;
+    color: white;
+    font-size: 12px;
+}
+#GetNews button{
+    width: 80px;
+    height: 25px;
+    padding-top: 2px;
+}
+
+#FootMail {
+    border-bottom: white 1.5px solid;
+    border-radius: 5%;
+}
